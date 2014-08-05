@@ -28,7 +28,8 @@ Horizons> [venus](#)
  
    Number of matches =  3. Use ID# to make unique selection.
 *******************************************************************************
-``` Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: [299](#)
+```
+Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: [299](#)
 ```*******************************************************************************
  Revised: Jul 31, 2013              Venus                               299 / 2
  
@@ -53,7 +54,8 @@ Horizons> [venus](#)
   Sidereal orb. per.    =  224.70079922 d Escape vel. km/s      =   10.361 
   Hill's sphere rad. Rp =  167.1          Planetary Solar Const = 2613.9 (Wm^2) 
 *******************************************************************************
- ```Select ... [E]phemeris, [F]tp, [M]ail, [R]edisplay, ?, <cr>: [e](#)
+ ```
+ Select ... [E]phemeris, [F]tp, [M]ail, [R]edisplay, ?, <cr>: [e](#)
  
  Observe, Elements, Vectors  [o,e,v,?] : [v](#)
  
@@ -63,12 +65,16 @@ Horizons> [venus](#)
   --- -------- ------- -------  ----------------
   500   0.0000 +000000  000000  Jupiter (body center)
  ```
- ```Confirm selected station    [ y/n ] --> [y](#)
- ```Reference plane [eclip, frame, body ] : [body](#)
- ```Starting CT  [>=   1799-Dec-18 00:00] : [2014-12-23 00:00](#)
- ```Ending   CT  [<=   2200-Jan-14 00:00] : [2014-12-23 06:00](#)           
- ```Output interval [ex: 10m, 1h, 1d, ? ] : [10m](#)
- ```
+Confirm selected station    [ y/n ] --> [y](#)
+
+Reference plane [eclip, frame, body ] : [body](#)
+
+Starting CT  [>=   1799-Dec-18 00:00] : [2014-12-23 00:00](#)
+
+Ending   CT  [<=   2200-Jan-14 00:00] : [2014-12-23 06:00](#)  
+
+Output interval [ex: 10m, 1h, 1d, ? ] : [10m](#)
+```
  Current output table defaults --
    Ref. Frame   = ICRF/J2000.0
    Corrections  = NONE
