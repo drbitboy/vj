@@ -26,7 +26,7 @@ Horizons> [venus](#)
  
    Number of matches =  3. Use ID# to make unique selection.
 *******************************************************************************
- Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: [299](#)
+ Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: ```[299](#)```
 *******************************************************************************
  Revised: Jul 31, 2013              Venus                               299 / 2
  
