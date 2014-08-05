@@ -1,10 +1,19 @@
+Horizons telnet session to get approximate time of 2014 Venus crossing of Jupiter equator.
+
+Key is to use BODY (EQUATOR) when asked for frame; ICRF/J2000 later does not matter(?)
+
+- link markdown used to highlight user entries
+
+- I don't know how this translates to the Horizons email or web interface
+
+
 $ [telnet horizons.jpl.nasa.gov 6775](#)
 
 JPL Horizons, version 3.93 
 Type `?' for brief intro, `?!' for more details 
 System news updated Jul 23, 2014
  
-Horizons> #venus#
+Horizons> [venus](#)
 *******************************************************************************
  Multiple major-bodies match string "VENUS*"
 
@@ -16,7 +25,7 @@ Horizons> #venus#
  
    Number of matches =  3. Use ID# to make unique selection.
 *******************************************************************************
- Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: **299**
+ Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: [299](#)
 *******************************************************************************
  Revised: Jul 31, 2013              Venus                               299 / 2
  
@@ -41,20 +50,20 @@ Horizons> #venus#
   Sidereal orb. per.    =  224.70079922 d Escape vel. km/s      =   10.361 
   Hill's sphere rad. Rp =  167.1          Planetary Solar Const = 2613.9 (Wm^2) 
 *******************************************************************************
- Select ... [E]phemeris, [F]tp, [M]ail, [R]edisplay, ?, <cr>: **e**
+ Select ... [E]phemeris, [F]tp, [M]ail, [R]edisplay, ?, <cr>: [e](#)
  
- Observe, Elements, Vectors  [o,e,v,?] : **v**
- Coordinate center [ <id>,coord,geo  ] : **500@599**
+ Observe, Elements, Vectors  [o,e,v,?] : [v](#)
+ Coordinate center [ <id>,coord,geo  ] : [500@599](#)
 
    #   E. Lon    DXY      DZ    Observatory Name
   --- -------- ------- -------  ----------------
   500   0.0000 +000000  000000  Jupiter (body center)
  
- Confirm selected station    [ y/n ] --> **y**
- Reference plane [eclip, frame, body ] : **body**
- Starting CT  [>=   1799-Dec-18 00:00] : **2014-12-23 00:00**
- Ending   CT  [<=   2200-Jan-14 00:00] : **2014-12-23 06:00**           
- Output interval [ex: 10m, 1h, 1d, ? ] : **10m**
+ Confirm selected station    [ y/n ] --> [y](#)
+ Reference plane [eclip, frame, body ] : [body](#)
+ Starting CT  [>=   1799-Dec-18 00:00] : [2014-12-23 00:00](#)
+ Ending   CT  [<=   2200-Jan-14 00:00] : [2014-12-23 06:00](#)           
+ Output interval [ex: 10m, 1h, 1d, ? ] : [10m](#)
  
  Current output table defaults --
    Ref. Frame   = ICRF/J2000.0
@@ -64,13 +73,13 @@ Horizons> #venus#
    Table type   = 03 (position, velocity, LT, rng, rng-rate)
    Vector label = NO
  
- Accept default output [ cr=(y), n, ?] : **n**
- Output reference frame [J2000, B1950] : **j2000**
- Corrections [ 1=NONE, 2=LT, 3=LT+S ]  : **1**
- Output units [1=KM-S, 2=AU-D, 3=KM-D] : **1**
- Spreadsheet CSV format    [ YES, NO ] : **y**
- Label cartesian output    [ YES, NO ] : **y**
- Select output table type  [ 1-6, ?  ] : **1**
+ Accept default output [ cr=(y), n, ?] : [n](#)
+ Output reference frame [J2000, B1950] : [j2000](#)
+ Corrections [ 1=NONE, 2=LT, 3=LT+S ]  : [1](#)
+ Output units [1=KM-S, 2=AU-D, 3=KM-D] : [1](#)
+ Spreadsheet CSV format    [ YES, NO ] : [y](#)
+ Label cartesian output    [ YES, NO ] : [y](#)
+ Select output table type  [ 1-6, ?  ] : [1](#)
  Working ... /  
 *******************************************************************************
 Ephemeris / PORT_LOGIN Tue Aug  5 08:19:10 2014 Pasadena, USA    / Horizons    
