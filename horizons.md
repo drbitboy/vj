@@ -4,7 +4,7 @@ JPL Horizons, version 3.93
 Type `?' for brief intro, `?!' for more details 
 System news updated Jul 23, 2014
  
-Horizons> **venus**
+Horizons> #venus#
 *******************************************************************************
  Multiple major-bodies match string "VENUS*"
 
