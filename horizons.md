@@ -2,16 +2,18 @@ Horizons telnet session to get approximate time of 2014 Venus crossing of Jupite
 
 Key is to use BODY (EQUATOR) when asked for frame; ICRF/J2000 later does not matter(?)
 
-- link markdown used to highlight user entries
+- link markdown used to highlight user entries; extra lines added
 
 - I don't know how this translates to the Horizons email or web interface
 
 
-```
+
 $ [telnet horizons.jpl.nasa.gov 6775](#)
 
 JPL Horizons, version 3.93 
+
 Type `?' for brief intro, `?!' for more details 
+
 System news updated Jul 23, 2014
  
 Horizons> [venus](#)
@@ -26,7 +28,7 @@ Horizons> [venus](#)
  
    Number of matches =  3. Use ID# to make unique selection.
 *******************************************************************************
- Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: ```[299](#)```
+ Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: [299](#)
 *******************************************************************************
  Revised: Jul 31, 2013              Venus                               299 / 2
  
@@ -54,6 +56,7 @@ Horizons> [venus](#)
  Select ... [E]phemeris, [F]tp, [M]ail, [R]edisplay, ?, <cr>: [e](#)
  
  Observe, Elements, Vectors  [o,e,v,?] : [v](#)
+ 
  Coordinate center [ <id>,coord,geo  ] : [500@599](#)
 
    #   E. Lon    DXY      DZ    Observatory Name
@@ -183,4 +186,4 @@ Geometric states/elements have no aberration corrections applied.
 |_____|/  |_|/       |_____|/                                             
  
 Connection closed by foreign host.
-```
+
