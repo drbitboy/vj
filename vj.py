@@ -34,14 +34,18 @@ refval, adjust, step, nintvls = 0.0, 0.0, spice.spd()*10, 450
 etlo,ethi = [spice.gdpool(s,0,1)[1] for s in 'ETLO ETHI'.split()]
 cnfine = spice.wninsd( etlo, ethi, spice.objects.Cell(spice.DataType.SPICE_DP,2))
 
-### Size output
+### Create DP window to receive results
 result = spice.objects.Cell(spice.DataType.SPICE_DP,500)
 
 ### Make the call to the generic Geometry Finder call
 cnfine, result = spice.gfposc( target, frame, abcorr, obsrvr, crdsys, coord, relate, refval, adjust, step, nintvls, cnfine, result )
 
-### Output results
+### Output results as four columns
+### - Crossing ordinal
+### - UTC of crossing as ISO calendar time
+### - TDB of crossing as calendar time (no leapseconds)
+### - The Z value of Venus in the Jupiter-centered IAU_JUPITER frame
 for i in xrange(spice.wncard(result)):
   et0,et1 = spice.wnfetd(result,i)
   assert et0 == et1
-  print( ( i, spice.et2utc(et0,'ISOC',3), spice.etcal(et0), spice.spkezr(target,et0,frame,abcorr,obsrvr)[0][2] ,) )
+  print( ( i+1, spice.et2utc(et0,'ISOC',3), spice.etcal(et0), spice.spkezr(target,et0,frame,abcorr,obsrvr)[0][2] ,) )
