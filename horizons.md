@@ -7,6 +7,7 @@ Key is to use BODY (EQUATOR) when asked for frame; ICRF/J2000 later does not mat
 - I don't know how this translates to the Horizons email or web interface
 
 
+```
 $ [telnet horizons.jpl.nasa.gov 6775](#)
 
 JPL Horizons, version 3.93 
@@ -182,3 +183,4 @@ Geometric states/elements have no aberration corrections applied.
 |_____|/  |_|/       |_____|/                                             
  
 Connection closed by foreign host.
+```
