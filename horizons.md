@@ -1,4 +1,4 @@
-$ **telnet horizons.jpl.nasa.gov 6775**
+$ [telnet horizons.jpl.nasa.gov 6775]
 
 JPL Horizons, version 3.93 
 Type `?' for brief intro, `?!' for more details 
