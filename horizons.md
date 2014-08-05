@@ -82,15 +82,22 @@ Output interval [ex: 10m, 1h, 1d, ? ] : [10m](#)
    CSV format   = NO
    Table type   = 03 (position, velocity, LT, rng, rng-rate)
    Vector label = NO
- ```
- ```Accept default output [ cr=(y), n, ?] : [n](#)
- ```Output reference frame [J2000, B1950] : [j2000](#)
- ```Corrections [ 1=NONE, 2=LT, 3=LT+S ]  : [1](#)
- ```Output units [1=KM-S, 2=AU-D, 3=KM-D] : [1](#)
- ```Spreadsheet CSV format    [ YES, NO ] : [y](#)
- ```Label cartesian output    [ YES, NO ] : [y](#)
- ```Select output table type  [ 1-6, ?  ] : [1](#)
-``` Working ... /  
+```
+Accept default output [ cr=(y), n, ?] : [n](#)
+
+Output reference frame [J2000, B1950] : [j2000](#)
+
+Corrections [ 1=NONE, 2=LT, 3=LT+S ]  : [1](#)
+
+Output units [1=KM-S, 2=AU-D, 3=KM-D] : [1](#)
+
+Spreadsheet CSV format    [ YES, NO ] : [y](#)
+
+Label cartesian output    [ YES, NO ] : [y](#)
+
+Select output table type  [ 1-6, ?  ] : [1](#)
+```
+Working ... /  
 *******************************************************************************
 Ephemeris / PORT_LOGIN Tue Aug  5 08:19:10 2014 Pasadena, USA    / Horizons    
 *******************************************************************************
@@ -192,4 +199,4 @@ Geometric states/elements have no aberration corrections applied.
 |_____|/  |_|/       |_____|/                                             
  
 Connection closed by foreign host.
-
+```
