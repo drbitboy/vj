@@ -1,10 +1,18 @@
 vj.py
 
-- Simple PySPICE-based Python script to determine the Venus crossings of the equator of Jupiter from 1901 to 2100
+- Simple PySPICE-based Python script to determine times of the eighty-two Venus crossings of the equator of Jupiter from 1901 to 2100
 
-Uses:
+  - vj.txt is the output
 
-- PySPICE package (import spice - see https://github.com/rca/PySPICE)
+
+Pre-requisites:
+
+- PySPICE package
+
+  - import spice
+  - see https://github.com/rca/PySPICE
+  - or https://github.com/drbitboy/PySPICE
+
 
 - NAIF/SPICE kernels from http://naif.jpl.nasa.gov/
 

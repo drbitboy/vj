@@ -1,4 +1,7 @@
 """
+
+Usage:  python vj.py > vj.txt
+
 Meta-kernel; get the following kernels from
 subidirectories spk/planets/, spk/satellites/, lsk/, pck/ of
 http://naif.jpl.nasa.gov/pub/naif/generic_kernels/
@@ -15,10 +18,13 @@ ETHI = @2099-12-31T12:00:00
 \begintext
 """
 
+### https://github.com/rca/PySPICE , or
+### https://github.com/drbitboy/PySPICE
 import spice
+
 dot = '.'
 
-### Load kernels
+### Load kernels using this source as SPICE meta-kernel
 spice.furnsh(dot.join(__file__.split(dot)[:-1] + ['py']))
 
 ### Set arguments for Geometry Finder call
