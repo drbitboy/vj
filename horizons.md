@@ -9,13 +9,11 @@ Key is to use BODY (EQUATOR) when asked for frame; ICRF/J2000 later does not mat
 
 
 $ [telnet horizons.jpl.nasa.gov 6775](#)
-
+```
 JPL Horizons, version 3.93 
-
 Type `?' for brief intro, `?!' for more details 
-
 System news updated Jul 23, 2014
- 
+```
 Horizons> [venus](#)
 ```*******************************************************************************
  Multiple major-bodies match string "VENUS*"
@@ -30,7 +28,8 @@ Horizons> [venus](#)
 *******************************************************************************
 ```
 Select ... [F]tp, [M]ail, [R]edisplay, ?, <cr>: [299](#)
-```*******************************************************************************
+```
+*******************************************************************************
  Revised: Jul 31, 2013              Venus                               299 / 2
  
  GEOPHYSICAL DATA (updated 2014-Mar-13):
